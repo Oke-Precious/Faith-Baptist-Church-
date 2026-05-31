@@ -2,6 +2,7 @@ import React from 'react';
 import { Facebook, Youtube, MapPin, Phone, Mail, ChevronRight } from 'lucide-react';
 import { Page } from '../types';
 import { MISSION_STATEMENT, CHURCH_LOCATION } from '../churchData';
+import ChurchLogo from './ChurchLogo';
 
 interface FooterProps {
   onNavigate: (page: Page) => void;
@@ -30,20 +31,8 @@ export default function Footer({ onNavigate }: FooterProps) {
         
         {/* Left column - logo & mission statement */}
         <div className="lg:col-span-4 space-y-5">
-          <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => handleQuickLink('home')}>
-            <div className="bg-secondary p-1.5 rounded-full text-primary">
-              <svg className="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
-                <path d="M12 2v20M7 8h10" />
-              </svg>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-serif text-lg md:text-xl font-bold text-white tracking-wide leading-none">
-                Faith Baptist Church
-              </span>
-              <span className="text-[10px] uppercase font-sans tracking-[0.18em] text-secondary font-bold leading-none mt-1">
-                Praise Chapel • Oke-Owode
-              </span>
-            </div>
+          <div className="flex items-center cursor-pointer group" onClick={() => handleQuickLink('home')}>
+            <ChurchLogo className="w-11 h-11 md:w-12 md:h-12" showText={true} />
           </div>
 
           <p className="text-sm text-white/70 font-sans leading-relaxed">

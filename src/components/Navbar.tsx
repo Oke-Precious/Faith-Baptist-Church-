@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Flame } from 'lucide-react';
 import { Page } from '../types';
 import { motion, AnimatePresence } from 'motion/react';
+import ChurchLogo from './ChurchLogo';
 
 interface NavbarProps {
   activePage: Page;
@@ -55,23 +56,10 @@ export default function Navbar({ activePage, onNavigate, onPlanVisit }: NavbarPr
           {/* Logo Section */}
           <div 
             id="brand-logo"
-            className="flex items-center gap-2 cursor-pointer group"
+            className="flex items-center cursor-pointer group"
             onClick={() => handleNavClick('home')}
           >
-            <div className="bg-secondary p-1.5 rounded-full flex items-center justify-center text-primary border border-secondary transition-all group-hover:bg-secondary-light">
-              {/* Minimal line-art style Cross represented with customizable vector */}
-              <svg className="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
-                <path d="M12 2v20M7 8h10" />
-              </svg>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-serif text-lg md:text-xl font-bold text-white tracking-wide leading-none">
-                Faith Baptist Church
-              </span>
-              <span className="text-[10px] uppercase font-sans tracking-[0.18em] text-secondary font-bold leading-none mt-1">
-                Praise Chapel • Oke-Owode
-              </span>
-            </div>
+            <ChurchLogo className="w-11 h-11 md:w-12 md:h-12" showText={true} />
           </div>
 
           {/* Desktop Navigation links */}

@@ -13,6 +13,21 @@ export default function Hero({ onPlanVisit, onWatchLive }: HeroProps) {
   const [subWord, setSubWord] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
 
+  // Fullback chain to handle user uploaded images from different potential folder structures,
+  // falling back to our high-definition generated replica if not yet fully uploaded.
+  const imgSources = [
+    '/src/assets/images/congregation2.jpg',
+    '/congregation2.jpg',
+    '/src/assets/images/church_congregation_1780252798062.png'
+  ];
+  const [imgSourceIndex, setImgSourceIndex] = useState(0);
+
+  const handleImageError = () => {
+    if (imgSourceIndex < imgSources.length - 1) {
+      setImgSourceIndex(prev => prev + 1);
+    }
+  };
+
   useEffect(() => {
     let timer: NodeJS.Timeout;
     const currentWord = words[index];
@@ -44,11 +59,14 @@ export default function Hero({ onPlanVisit, onWatchLive }: HeroProps) {
       {/* Background Graphic Setup */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1438032005730-c779502df39b?auto=format&fit=crop&q=80&w=1920" 
-          alt="Church Worship Background" 
-          className="w-full h-full object-cover object-center opacity-25 filter brightness-75 scale-105"
+          src={imgSources[imgSourceIndex]} 
+          alt="Faith Baptist Church Congregation" 
+          referrerPolicy="no-referrer"
+          onError={handleImageError}
+          className="w-full h-full object-cover object-center opacity-80 filter brightness-95 md:brightness-85 scale-100 transition-opacity duration-500"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/95 via-primary/80 to-primary" />
+        {/* Softened blue background overlay with reduced opacity for enhanced background image clarity */}
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/45 via-primary/25 to-primary/75" />
         {/* Subtle decorative golden glowing rays in the top-right */}
         <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-secondary/10 rounded-full blur-[120px] pointer-events-none" />
         <div className="absolute bottom-[-15%] left-[-10%] w-[60%] h-[60%] bg-secondary/5 rounded-full blur-[140px] pointer-events-none" />
