@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Heart, Music, Flame, Baby, Globe2, ChevronRight } from 'lucide-react';
+import { Shield, Heart, Music, Flame, Baby, Globe2, BookOpen, ChevronRight } from 'lucide-react';
 import { MINISTRIES } from '../churchData';
 
 interface MinistriesGridProps {
@@ -23,6 +23,8 @@ export default function MinistriesGrid({ onLearnMore }: MinistriesGridProps) {
         return <Baby className="w-6 h-6 text-secondary" />;
       case "Globe2":
         return <Globe2 className="w-6 h-6 text-secondary" />;
+      case "BookOpen":
+        return <BookOpen className="w-6 h-6 text-secondary" />;
       default:
         return <Heart className="w-6 h-6 text-secondary" />;
     }
