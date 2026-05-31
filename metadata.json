@@ -1,0 +1,6 @@
+{
+  "name": "Faith Baptist Church Praise Chapel",
+  "description": "Official website of Faith Baptist Church Praise Chapel, Oke-Owode, Ogbomoso, Nigeria. Led by Rev. Dr. J. O. Ogunyode-Agbaosi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
