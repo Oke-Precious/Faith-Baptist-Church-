@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, Clock, MapPin, Sparkles, BookOpen, Flame, ShieldAlert } from 'lucide-react';
+import { Calendar, Clock, MapPin, Sparkles, BookOpen, Flame, ShieldAlert, Users } from 'lucide-react';
 import { STUDY_AND_WORSHIP_TIMES } from '../churchData';
 
 interface ServiceTimesProps {
@@ -14,9 +14,9 @@ export default function ServiceTimes({ onPlanVisit }: ServiceTimesProps) {
       case "wt-1":
         return <Sparkles className="w-6 h-6 text-secondary" />;
       case "wt-2":
-        return <BookOpen className="w-6 h-6 text-secondary" />;
+        return <Users className="w-6 h-6 text-secondary" />;
       case "wt-3":
-        return <Flame className="w-6 h-6 text-secondary" />;
+        return <BookOpen className="w-6 h-6 text-secondary" />;
       default:
         return <Calendar className="w-6 h-6 text-secondary" />;
     }

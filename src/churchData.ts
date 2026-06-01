@@ -19,17 +19,17 @@ export const STUDY_AND_WORSHIP_TIMES = [
   {
     id: "wt-2",
     day: "Wednesdays",
-    time: "5:00 PM - 6:30 PM",
-    title: "Midweek Interactive Bible Hour",
-    description: "Deep study of God's Word with interactive questions, answers, and corporate prayers. Food for your soul.",
-    location: "Main Sanctuary"
+    time: "4:30 PM - 7:00 PM",
+    title: "Departmental Meetings & Prayer Meeting",
+    description: "Our mid-week renewal: Departmental Missionary Meetings (MMU, WMU, RA, Sunbeam, GA, Lydia) from 4:30 PM to 6:00 PM, followed immediately by our corporate Prayer Meeting from 6:00 PM to 7:00 PM.",
+    location: "Main Sanctuary & Fellowship Halls"
   },
   {
     id: "wt-3",
     day: "Fridays",
-    time: "5:30 PM - 7:00 PM",
-    title: "Power & Praise Hour (Prayer Meeting)",
-    description: "An intensive time in the presence of God. We engage in spiritual warfare, intercession, and prophetic breakthrough praises.",
+    time: "4:30 PM - 6:00 PM",
+    title: "Interactive Bible Study",
+    description: "Digging deep into the standard of God's Word with active studies, discussions, and dynamic spiritual applications.",
     location: "Main Sanctuary"
   }
 ];

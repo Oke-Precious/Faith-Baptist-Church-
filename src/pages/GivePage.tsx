@@ -670,10 +670,10 @@ export default function GivePage() {
                   <div className="bg-white rounded-2xl p-5 border border-secondary/10 flex flex-col space-y-2">
                     <span className="text-[9px] uppercase tracking-widest font-bold text-secondary">Mid-week Assembly</span>
                     <h4 className="font-serif text-base font-bold text-primary leading-tight">
-                      Wednesday Prayer Power & Praise
+                      Departmental Meetings & Prayer Meeting
                     </h4>
                     <p className="text-xs text-light font-sans leading-normal">
-                      Every Wednesday, 5:00 PM — Main Sanctuary. Dedicated mid-week prayer covenants.
+                      Every Wednesday — Departmentals (MMU, WMU, RA, Sunbeam, GA, Lydia) from 4:30 PM to 6:00 PM, followed by Prayer Meeting from 6:00 PM to 7:00 PM in the Main Sanctuary & Fellowship Halls.
                     </p>
                   </div>
 
