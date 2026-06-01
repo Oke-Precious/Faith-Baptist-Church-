@@ -30,12 +30,12 @@ export default function PastorWelcome({ onLearnMore }: PastorWelcomeProps) {
               {/* Image Border frame */}
               <div className="relative overflow-hidden rounded-2xl border-4 border-white shadow-2xl bg-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600&h=600" 
+                  src="/src/assets/images/regenerated_image_1780299660288.jpg" 
                   alt={PASTOR_NAME} 
                   className="w-full h-[400px] lg:h-[430px] object-cover object-top transition-transform duration-500 hover:scale-105"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 text-white text-center md:text-left">
-                  <span className="text-secondary text-xs uppercase font-sans font-bold tracking-widest block mb-1">
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 via-black/70 to-black/10 p-6 text-white text-center md:text-left">
+                  <span className="text-secondary text-xs uppercase font-sans font-black tracking-widest block mb-1">
                     Under Shepherd
                   </span>
                   <h4 className="font-serif text-lg md:text-xl font-bold">
@@ -75,7 +75,7 @@ export default function PastorWelcome({ onLearnMore }: PastorWelcomeProps) {
                     {PASTOR_NAME}
                   </h5>
                   <p className="text-xs text-light font-sans">
-                    Pastor-in-Charge, M.Div, Ph.D. in Theology
+                    Pastor-in-Charge, Ph.D. in Theology
                   </p>
                 </div>
               </div>
