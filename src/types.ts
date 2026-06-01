@@ -1,4 +1,4 @@
-export type Page = 'home' | 'about' | 'sermons' | 'ministries' | 'events' | 'give' | 'contact' | 'visit';
+export type Page = 'home' | 'about' | 'sermons' | 'ministries' | 'events' | 'give' | 'contact' | 'visit' | 'prayer';
 
 export interface Sermon {
   id: string;

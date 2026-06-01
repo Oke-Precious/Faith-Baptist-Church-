@@ -31,6 +31,7 @@ export default function Navbar({ activePage, onNavigate, onPlanVisit }: NavbarPr
     { label: 'About', value: 'about' },
     { label: 'Sermons', value: 'sermons' },
     { label: 'Ministries', value: 'ministries' },
+    { label: 'Prayer', value: 'prayer' },
     { label: 'Events', value: 'events' },
     { label: 'Give', value: 'give' },
     { label: 'Contact', value: 'contact' },

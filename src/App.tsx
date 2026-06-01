@@ -22,6 +22,7 @@ import EventsPage from './pages/EventsPage';
 import GivePage from './pages/GivePage';
 import ContactPage from './pages/ContactPage';
 import VisitPage from './pages/VisitPage';
+import PrayerPage from './pages/PrayerPage';
 
 export default function App() {
   const [activePage, setActivePage] = useState<Page>('home');
@@ -125,6 +126,7 @@ export default function App() {
         {activePage === 'give' && <GivePage />}
         {activePage === 'contact' && <ContactPage />}
         {activePage === 'visit' && <VisitPage onNavigate={handleNavigate} />}
+        {activePage === 'prayer' && <PrayerPage onNavigate={handleNavigate} />}
       </main>
 
       {/* Global Footer component */}
