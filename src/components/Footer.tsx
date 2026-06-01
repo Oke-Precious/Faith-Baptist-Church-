@@ -73,6 +73,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               { label: 'Our Story (About)', page: 'about' },
               { label: 'Sermon Archive', page: 'sermons' },
               { label: 'Departments (Ministries)', page: 'ministries' },
+              { label: 'Plan Your Visit', page: 'visit' },
               { label: 'Upcoming Events', page: 'events' },
               { label: 'Give & Sowing', page: 'give' },
               { label: 'Prayer & Contacts', page: 'contact' },

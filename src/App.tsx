@@ -21,6 +21,7 @@ import MinistriesPage from './pages/MinistriesPage';
 import EventsPage from './pages/EventsPage';
 import GivePage from './pages/GivePage';
 import ContactPage from './pages/ContactPage';
+import VisitPage from './pages/VisitPage';
 
 export default function App() {
   const [activePage, setActivePage] = useState<Page>('home');
@@ -31,12 +32,7 @@ export default function App() {
   };
 
   const handlePlanVisit = () => {
-    setActivePage('contact');
-    setTimeout(() => {
-      // Find the card or top of the contact forms
-      const contactForm = document.getElementById('contact-page-wrapper');
-      contactForm?.scrollIntoView({ behavior: 'smooth' });
-    }, 100);
+    setActivePage('visit');
   };
 
   const handleWatchLive = () => {
@@ -128,6 +124,7 @@ export default function App() {
         {activePage === 'events' && <EventsPage />}
         {activePage === 'give' && <GivePage />}
         {activePage === 'contact' && <ContactPage />}
+        {activePage === 'visit' && <VisitPage onNavigate={handleNavigate} />}
       </main>
 
       {/* Global Footer component */}
