@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'motion/react';
 
 export default function TestimonialsSlider() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
   const handlePrev = () => {
     setActiveIndex((prev) => (prev === 0 ? TESTIMONIALS.length - 1 : prev - 1));
@@ -16,10 +17,12 @@ export default function TestimonialsSlider() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      handleNext();
-    }, 8000); // stable auto slider
+      if (!isPaused) {
+        handleNext();
+      }
+    }, 5000); // responsive auto slider transition
     return () => clearInterval(timer);
-  }, [activeIndex]);
+  }, [activeIndex, isPaused]);
 
   const active = TESTIMONIALS[activeIndex];
 
@@ -50,7 +53,11 @@ export default function TestimonialsSlider() {
         </div>
 
         {/* Carousel Pane */}
-        <div className="relative bg-white border border-secondary/15 rounded-3xl p-8 sm:p-12 shadow-xl">
+        <div 
+          className="relative bg-white border border-secondary/15 rounded-3xl p-8 sm:p-12 shadow-xl cursor-default transition-all duration-300 hover:shadow-2xl"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+        >
           
           {/* Absolute Quote Design element */}
           <Quote className="absolute top-6 right-8 text-secondary/10 w-24 h-24 pointer-events-none" />
