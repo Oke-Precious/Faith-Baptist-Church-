@@ -114,32 +114,32 @@ export const EVENTS: ChurchEvent[] = [
     location: "Praise Chapel Ground & Surrounding Communities",
     description: "An interactive, high-impact youth outreach blending faith, community sanitation support, medical checks guidance, and a grand musical gospel event in Oke-Owode. Come and express Christ!",
     category: "Youth",
-    image: "https://picsum.photos/seed/youthoutreach/800/500"
+    image: "public/images/TEENAGERS.jpg"
   }
 ];
 
 export const MINISTRIES: Ministry[] = [
   {
     id: "min-1",
-    name: "Men's Fellowship (MMU)",
+    name: "Men's Missionary Union (MMU)",
     iconName: "Shield",
     tagline: "Iron sharpening iron – building brotherhood, accountability, and spiritual leadership.",
-    description: "Our Men's Fellowship brings together husbands, fathers, and single men of all ages to build deep spiritual accountability. We are committed to establishing strong biblical foundations in our families, careers, and the church community. Through our regular roundtable discussions, mentorship programs, and local mission supports, we help men discover their leadership path under God's grace.",
+    description: "Our Men's Fellowship brings together husbands and fathers of all ages to build deep spiritual accountability. We are committed to establishing strong biblical foundations in our families, careers, and the church community. Through our regular roundtable discussions, mentorship programs, and local mission supports, we help men discover their leadership path under God's grace.",
     leader: "Mr. Mathew Oke",
     leaderTitle: "Chairman",
-    meetingTime: "Every 2nd & 4th Sunday, 4:00 PM",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600"
+    meetingTime: "Every Wednesday, 5:00 PM",
+    image: "public/images/fathers.jpg"
   },
   {
     id: "min-2",
-    name: "Women's Ministry (WMU)",
+    name: "Women's Misionary Union (WMU)",
     iconName: "Heart",
     tagline: "Empowering women in sisterhood, prayer, and mission advocacy.",
     description: "The Women's Fellowship provides a nurturing space for sisters, mothers, and daughters to connect and grow together. We advocate for intense prayer, dynamic bible studies, and charitable outreaches to Ogbomoso safe-spaces and motherless homes. Our seminars cover christian family nurturing, professional development, and emotional wellness, releasing the active power of godly womanhood.",
     leader: "Mrs. Dorcas Ajadi",
     leaderTitle: "Chairman",
-    meetingTime: "Every Tuesday, 5:00 PM",
-    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=600"
+    meetingTime: "Every Wednesday, 4:30 PM",
+    image: "public/images/mothers.jpg"
   },
   {
     id: "min-ra",
@@ -149,8 +149,8 @@ export const MINISTRIES: Ministry[] = [
     description: "Royal Ambassadors (RA) is our missionary education group for young boy adventurers and young men. We focus on developing robust spiritual characters, practical outdoor skills, and mission knowledge. Through camping, sport engagements, and bible study groups, RA members learn devotion, discipline, and active peer-level evangelism.",
     leader: "Amb. Extra. Ogundipe Gideon",
     leaderTitle: "President",
-    meetingTime: "Every Wednesday, 4:30 PM",
-    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=600"
+    meetingTime: "Every Wednesday, 5:00 PM",
+    image: "public/images/RAs.jpg"
   },
   {
     id: "min-ga",
@@ -160,8 +160,8 @@ export const MINISTRIES: Ministry[] = [
     description: "The Girls' Auxiliary (GA) is designed for young girls to discover their identity as royal daughters of the Heavenly King. We study the scriptures, highlight historical missionary works, nurture spiritual virtues, and engage in creative domestic skills. GA builds lasting Christian sisterhood that anchors hearts in deep chastity, grace, and spiritual service.",
     leader: "TBA",
     leaderTitle: "President",
-    meetingTime: "Every Wednesday, 4:30 PM",
-    image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=600"
+    meetingTime: "Every Wednesday, 5:00 PM",
+    image: "public/images/seniorGA.jpg"
   },
   {
     id: "min-lydia",
@@ -171,7 +171,7 @@ export const MINISTRIES: Ministry[] = [
     description: "The Lydia Auxiliary represents our vibrant fellowship of young single women. Modelled after Lydia of Thyatira, we cultivate spiritual elegance, self-reliance, and standard-setting ministry advocacy. We support professional development and missions, empowering young women to excel in their career callings and Christian endeavors with total holiness.",
     leader: "Lydia Olayiwola Rachel",
     leaderTitle: "President",
-    meetingTime: "Every Wednesday, 4:30 PM",
+    meetingTime: "Every Wednesday, 5:00 PM",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600"
   },
   {
@@ -181,7 +181,7 @@ export const MINISTRIES: Ministry[] = [
     tagline: "Ages 13–25 – igniting true discipleship, mentoring, and academic excellence.",
     description: "The Blaze Fellowship is an energetic community of adolescents and university scholars (LAUTECH, Bowen University, etc.) seeking to transform their spaces. We bridge the gap between scientific inquiries and raw biblical truths through tailored interactive debates, mentoring circles, and skill development classes. Here, youths discover practical keys of holiness, character, and professional competence.",
     leader: "Sis. Rachel Alabi",
-    meetingTime: "Saturdays, 5:00 PM",
+    meetingTime: "Tuesdays, 5:00 PM",
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=600"
   },
   {
@@ -191,8 +191,8 @@ export const MINISTRIES: Ministry[] = [
     tagline: "Ages 3–12 – cultivating a firm foundation of Bible-based fun and godly learning.",
     description: "Our Children's Church offers a vibrant, safe, and engaging environment where our precious boys and girls learn the ways of the Lord. Led by passionate and trained Christian teachers, the children participate in creative crafts, interactive bible dramas, and scripture reciting events. We build an uncompromised biblical framework that prepares their hearts for a lifelong walk with Christ.",
     leader: "Deaconess Esther Ajayi",
-    meetingTime: "Sundays, 8:00 AM (Concurrent with Worship)",
-    image: "https://images.unsplash.com/photo-1545641203-7d072a14e3b2?auto=format&fit=crop&q=80&w=600"
+    meetingTime: "Wednesdays, 5:00 PM (Concurrent with Worship)",
+    image: "public/images/childrens.jpg"
   },
   {
     id: "min-5",
@@ -201,8 +201,8 @@ export const MINISTRIES: Ministry[] = [
     tagline: "Guiding the church in standard-setting, prophetic praise and atmosphere-shifting worship.",
     description: "Our music department is a dedicated army of musicians and vocalists who view praise as spiritual warfare and coordinates of covenant connection. We cultivate professional musical competence alongside deep consecration, preparing songs that honor God and stir hearts. Weekly rehearsals foster vocal refinement and deep fellowship, ensuring our Sunday praise elevates the entire sanctuary into the heavy weight of God's presence.",
     leader: "Bro. Emmanuel Adeleke",
-    meetingTime: "Thursdays 5:00 PM & Saturdays 4:00 PM",
-    image: "https://images.unsplash.com/photo-1438032005730-c779502df39b?auto=format&fit=crop&q=80&w=600"
+    meetingTime: "Thursdays 5:00 PM",
+    image: "public/images/choir.jpg"
   },
   {
     id: "min-6",
