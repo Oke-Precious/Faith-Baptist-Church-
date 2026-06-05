@@ -57,7 +57,7 @@ export default function App() {
   // Handle Dynamic SEO Metadata Updating
   useEffect(() => {
     const titleMap: Record<Page, string> = {
-      home: "Joyous Worship Sanctuary | Faith Baptist Church Praise Chapel",
+      home: "Faith Baptist Church | Chapel of Praise",
       about: "Our Pastoral Counsel & Mission | Faith Baptist Church Praise Chapel",
       sermons: "Sermon Broadcasts & Audio Archives | Faith Baptist Church Praise Chapel",
       ministries: "Active Fellowships & Outreaches | Faith Baptist Church Praise Chapel",

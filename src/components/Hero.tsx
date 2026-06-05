@@ -120,7 +120,7 @@ export default function Hero({ onPlanVisit, onWatchLive }: HeroProps) {
           transition={{ duration: 1, delay: 0.5 }}
           className="text-sm sm:text-base md:text-lg text-white/75 font-sans max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          A vibrant worship family led by <strong className="text-accent">Rev. Dr. J. O. Ogunyode-Agbaosi</strong>. Join us this Sunday at <strong className="text-secondary">8:00 AM</strong> for Sunday School and Divine Praise Worship.
+          A vibrant worship family led by <strong className="text-accent">Rev. Dr. J. O. Ogunyode-Agbaosi</strong>. Join us this Sunday at <strong className="text-secondary">7:30 AM</strong> for Sunday School and Divine Praise Worship.
         </motion.p>
 
         {/* CTA Actions Group */}
