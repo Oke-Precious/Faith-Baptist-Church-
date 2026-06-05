@@ -30,7 +30,7 @@ export default function PastorWelcome({ onLearnMore }: PastorWelcomeProps) {
               {/* Image Border frame */}
               <div className="relative overflow-hidden rounded-2xl border-4 border-white shadow-2xl bg-white">
                 <img 
-                  src="/src/assets/images/regenerated_image_1780299660288.jpg" 
+                  src="/images/pastor.jpg" 
                   alt={PASTOR_NAME} 
                   className="w-full h-[400px] lg:h-[430px] object-cover object-top transition-transform duration-500 hover:scale-105"
                 />

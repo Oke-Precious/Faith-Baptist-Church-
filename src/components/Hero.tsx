@@ -13,12 +13,10 @@ export default function Hero({ onPlanVisit, onWatchLive }: HeroProps) {
   const [subWord, setSubWord] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
 
-  // Fullback chain to handle user uploaded images from different potential folder structures,
-  // falling back to our high-definition generated replica if not yet fully uploaded.
+  // Fallback chain to handle static congregation image and unsplash fallback
   const imgSources = [
-    '/src/assets/images/congregation2.jpg',
-    '/congregation2.jpg',
-    '/src/assets/images/church_congregation_1780252798062.png'
+    '/images/congregation2.jpg',
+    'https://images.unsplash.com/photo-1544427920-c49ccfb85579?auto=format&fit=crop&q=80&w=1600'
   ];
   const [imgSourceIndex, setImgSourceIndex] = useState(0);
 

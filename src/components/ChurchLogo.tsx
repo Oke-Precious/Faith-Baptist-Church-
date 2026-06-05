@@ -11,7 +11,7 @@ export default function ChurchLogo({ className = "w-12 h-12", showText = false }
       <div className={`relative shrink-0 ${className}`}>
         {/* Faith Baptist Church Logo Image */}
         <img 
-          src="/src/assets/images/faith logo.png" 
+          src="/images/faith_logo.png" 
           alt="Faith Baptist Church Logo" 
           className="w-full h-full object-contain filter drop-shadow-md"
           referrerPolicy="no-referrer"
