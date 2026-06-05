@@ -15,7 +15,10 @@ import {
   MessageSquare, 
   Calendar, 
   CheckCircle,
-  HelpCircle
+  HelpCircle,
+  Compass,
+  Crown,
+  Gem
 } from 'lucide-react';
 
 export default function MinistriesPage() {
@@ -46,6 +49,12 @@ export default function MinistriesPage() {
         return <Globe2 className="w-6 h-6 text-secondary-dark" />;
       case "BookOpen":
         return <BookOpen className="w-6 h-6 text-secondary-dark" />;
+      case "Compass":
+        return <Compass className="w-6 h-6 text-secondary-dark" />;
+      case "Crown":
+        return <Crown className="w-6 h-6 text-secondary-dark" />;
+      case "Gem":
+        return <Gem className="w-6 h-6 text-secondary-dark" />;
       default:
         return <HelpCircle className="w-6 h-6 text-secondary-dark" />;
     }
@@ -151,7 +160,7 @@ export default function MinistriesPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-6">
                   <div>
                     <span className="text-[10px] uppercase font-sans font-bold tracking-widest text-secondary-light bg-primary/80 px-2.5 py-1 rounded-md border border-secondary/20 mb-2 inline-block">
-                      Leader: {min.leader}
+                      {min.leaderTitle || 'Leader'}: {min.leader}
                     </span>
                     <h3 className="text-xl sm:text-2xl font-serif font-bold text-white leading-tight">
                       {min.name}

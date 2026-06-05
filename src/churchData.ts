@@ -125,7 +125,8 @@ export const MINISTRIES: Ministry[] = [
     iconName: "Shield",
     tagline: "Iron sharpening iron – building brotherhood, accountability, and spiritual leadership.",
     description: "Our Men's Fellowship brings together husbands, fathers, and single men of all ages to build deep spiritual accountability. We are committed to establishing strong biblical foundations in our families, careers, and the church community. Through our regular roundtable discussions, mentorship programs, and local mission supports, we help men discover their leadership path under God's grace.",
-    leader: "Deacon Amos Oyebade",
+    leader: "Mr. Mathew Oke",
+    leaderTitle: "Chairman",
     meetingTime: "Every 2nd & 4th Sunday, 4:00 PM",
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600"
   },
@@ -135,9 +136,43 @@ export const MINISTRIES: Ministry[] = [
     iconName: "Heart",
     tagline: "Empowering women in sisterhood, prayer, and mission advocacy.",
     description: "The Women's Fellowship provides a nurturing space for sisters, mothers, and daughters to connect and grow together. We advocate for intense prayer, dynamic bible studies, and charitable outreaches to Ogbomoso safe-spaces and motherless homes. Our seminars cover christian family nurturing, professional development, and emotional wellness, releasing the active power of godly womanhood.",
-    leader: "Deaconess Comfort Ogunyode-Agbaosi",
+    leader: "Mrs. Dorcas Ajadi",
+    leaderTitle: "Chairman",
     meetingTime: "Every Tuesday, 5:00 PM",
     image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "min-ra",
+    name: "Royal Ambassadors (RA)",
+    iconName: "Compass",
+    tagline: "Ages 10–24 – training young boys to be active, courageous ambassadors for Christ.",
+    description: "Royal Ambassadors (RA) is our missionary education group for young boy adventurers and young men. We focus on developing robust spiritual characters, practical outdoor skills, and mission knowledge. Through camping, sport engagements, and bible study groups, RA members learn devotion, discipline, and active peer-level evangelism.",
+    leader: "Amb. Extra. Ogundipe Gideon",
+    leaderTitle: "President",
+    meetingTime: "Every Wednesday, 4:30 PM",
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "min-ga",
+    name: "Girls' Auxiliary (GA)",
+    iconName: "Crown",
+    tagline: "Ages 10–16 – bringing up virtuous, mission-minded daughters of the King.",
+    description: "The Girls' Auxiliary (GA) is designed for young girls to discover their identity as royal daughters of the Heavenly King. We study the scriptures, highlight historical missionary works, nurture spiritual virtues, and engage in creative domestic skills. GA builds lasting Christian sisterhood that anchors hearts in deep chastity, grace, and spiritual service.",
+    leader: "TBA",
+    leaderTitle: "President",
+    meetingTime: "Every Wednesday, 4:30 PM",
+    image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: "min-lydia",
+    name: "Lydia Auxiliary",
+    iconName: "Gem",
+    tagline: "For young single women – nurturing focus, spiritual elegance, and mission impact.",
+    description: "The Lydia Auxiliary represents our vibrant fellowship of young single women. Modelled after Lydia of Thyatira, we cultivate spiritual elegance, self-reliance, and standard-setting ministry advocacy. We support professional development and missions, empowering young women to excel in their career callings and Christian endeavors with total holiness.",
+    leader: "Lydia Olayiwola Rachel",
+    leaderTitle: "President",
+    meetingTime: "Every Wednesday, 4:30 PM",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600"
   },
   {
     id: "min-3",

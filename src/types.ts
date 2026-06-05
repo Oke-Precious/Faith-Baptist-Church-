@@ -32,6 +32,7 @@ export interface Ministry {
   tagline: string;
   description: string;
   leader: string;
+  leaderTitle?: string;
   meetingTime: string;
   image: string;
 }

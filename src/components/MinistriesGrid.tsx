@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Heart, Music, Flame, Baby, Globe2, BookOpen, ChevronRight } from 'lucide-react';
+import { Shield, Heart, Music, Flame, Baby, Globe2, BookOpen, ChevronRight, Compass, Crown, Gem } from 'lucide-react';
 import { MINISTRIES } from '../churchData';
 
 interface MinistriesGridProps {
@@ -25,6 +25,12 @@ export default function MinistriesGrid({ onLearnMore }: MinistriesGridProps) {
         return <Globe2 className="w-6 h-6 text-secondary" />;
       case "BookOpen":
         return <BookOpen className="w-6 h-6 text-secondary" />;
+      case "Compass":
+        return <Compass className="w-6 h-6 text-secondary" />;
+      case "Crown":
+        return <Crown className="w-6 h-6 text-secondary" />;
+      case "Gem":
+        return <Gem className="w-6 h-6 text-secondary" />;
       default:
         return <Heart className="w-6 h-6 text-secondary" />;
     }
@@ -75,7 +81,7 @@ export default function MinistriesGrid({ onLearnMore }: MinistriesGridProps) {
 
                 {/* Short line-tagline description */}
                 <p className="text-xs uppercase font-sans tracking-widest text-secondary font-semibold mb-3">
-                  Leader: {min.leader}
+                  {min.leaderTitle || 'Leader'}: {min.leader}
                 </p>
 
                 {/* Brief details body */}
