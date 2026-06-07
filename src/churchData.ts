@@ -114,7 +114,7 @@ export const EVENTS: ChurchEvent[] = [
     location: "Praise Chapel Ground & Surrounding Communities",
     description: "An interactive, high-impact youth outreach blending faith, community sanitation support, medical checks guidance, and a grand musical gospel event in Oke-Owode. Come and express Christ!",
     category: "Youth",
-    image: "public/images/TEENAGERS.jpg"
+    image: "/images/TEENAGERS.jpg"
   }
 ];
 
@@ -128,7 +128,7 @@ export const MINISTRIES: Ministry[] = [
     leader: "Mr. Mathew Oke",
     leaderTitle: "Chairman",
     meetingTime: "Every Wednesday, 5:00 PM",
-    image: "public/images/fathers.jpg"
+    image: "/images/fathers.jpg"
   },
   {
     id: "min-2",
@@ -139,7 +139,7 @@ export const MINISTRIES: Ministry[] = [
     leader: "Mrs. Dorcas Ajadi",
     leaderTitle: "Chairman",
     meetingTime: "Every Wednesday, 4:30 PM",
-    image: "public/images/mothers.jpg"
+    image: "/images/mothers.jpg"
   },
   {
     id: "min-ra",
@@ -150,7 +150,7 @@ export const MINISTRIES: Ministry[] = [
     leader: "Amb. Extra. Ogundipe Gideon",
     leaderTitle: "President",
     meetingTime: "Every Wednesday, 5:00 PM",
-    image: "public/images/RAs.jpg"
+    image: "/images/RAs.jpg"
   },
   {
     id: "min-ga",
@@ -161,7 +161,7 @@ export const MINISTRIES: Ministry[] = [
     leader: "TBA",
     leaderTitle: "President",
     meetingTime: "Every Wednesday, 5:00 PM",
-    image: "public/images/seniorGA.jpg"
+    image: "/images/seniorGA.jpg"
   },
   {
     id: "min-lydia",
@@ -192,7 +192,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Our Children's Church offers a vibrant, safe, and engaging environment where our precious boys and girls learn the ways of the Lord. Led by passionate and trained Christian teachers, the children participate in creative crafts, interactive bible dramas, and scripture reciting events. We build an uncompromised biblical framework that prepares their hearts for a lifelong walk with Christ.",
     leader: "Deaconess Esther Ajayi",
     meetingTime: "Wednesdays, 5:00 PM (Concurrent with Worship)",
-    image: "public/images/childrens.jpg"
+    image: "/images/childrens.jpg"
   },
   {
     id: "min-5",
@@ -202,7 +202,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Our music department is a dedicated army of musicians and vocalists who view praise as spiritual warfare and coordinates of covenant connection. We cultivate professional musical competence alongside deep consecration, preparing songs that honor God and stir hearts. Weekly rehearsals foster vocal refinement and deep fellowship, ensuring our Sunday praise elevates the entire sanctuary into the heavy weight of God's presence.",
     leader: "Bro. Emmanuel Adeleke",
     meetingTime: "Thursdays 5:00 PM",
-    image: "public/images/choir.jpg"
+    image: "/images/choir.jpg"
   },
   {
     id: "min-6",
